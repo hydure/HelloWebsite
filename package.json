@@ -1,0 +1,30 @@
+{
+  "name": "hellowebsite",
+  "version": "1.0.0",
+  "description": "Creating a basic MEAN stack web app!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydure/HelloWebsite.git"
+  },
+  "author": "Colin Lightfoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hydure/HelloWebsite/issues"
+  },
+  "homepage": "https://github.com/hydure/HelloWebsite#readme"
+}
