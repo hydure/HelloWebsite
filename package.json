@@ -8,14 +8,17 @@
     "start": "node server"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
     "body-parser": "*",
+    "bootstrap": "^4.1.1",
+    "cors": "*",
+    "express": "*",
+    "jquery": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "popper.js": "*"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/hydure/HelloWebsite/issues"
   },
-  "homepage": "https://github.com/hydure/HelloWebsite#readme"
+  "homepage": "https://github.com/hydure/HelloWebsite#readme",
+  "devDependencies": {
+    "@angular/cli": "^6.0.0"
+  }
 }
