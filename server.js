@@ -10,12 +10,12 @@ const config = require('./config/database');
 mongoose.connect(config.database);
 
 // On Connection
-mongoose.connection.on('connected', () =>{
+mongoose.connection.on('connected', () => {
     console.log("Connected to database " + config.database);
 });
 
 // On Error
-mongoose.connection.on('error', (err) =>{
+mongoose.connection.on('error', (err) => {
     console.log("Database error: " + err);
 });
 
@@ -30,7 +30,8 @@ const port = 3000;
 // CORS Middleware
 app.use(cors());
 
-// Set Static Folder
+// Set Static Folder where files from `ng build` will go.
+// This allows you to use only express server to run app.
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Body Parser Middleware
